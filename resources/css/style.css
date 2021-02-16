@@ -1,0 +1,542 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* all content er jonno */
+
+html{
+    font-size:62.5%;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 10rem 0;
+    min-height: 65rem;
+}
+
+
+
+h2{
+    font-size:4rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 2.4rem;
+}
+p {
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    margin-top:1.9rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+.container{
+    max-width:1140px;
+    margin:auto;
+}
+
+.container::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.btn:link,
+.btn.visited,
+.btn{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 2rem 7rem;
+}
+
+/* header section er jonno */
+
+header{
+    background-color: #87509c;
+    padding: 4.5rem;
+    height: 60rem;
+    max-height: 60rem;
+    
+}
+
+.header-logo{
+    float:left;
+
+}
+
+.header-menu{
+    float:right
+}
+
+.header-menu ul li {
+    float: left;
+    padding: 1rem 2rem;
+    background: rgba(100, 58, 121, 0);
+    margin: 0px .5rem;
+    border-radius: .5rem;
+    transition:0.5s ease;
+}
+
+.header-menu ul li:hover{
+    background: rgba(100, 58, 121, 1);
+}
+
+.header-menu li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size:1.8rem;
+}
+
+nav{
+    min-height: 5rem;
+    
+}
+
+.under_header_title{
+    text-align:center;
+    padding-top:10vh
+}
+
+.under_header_title h1{
+    font-size: 4.2rem;
+    color:#fff;
+    line-height: 4.9rem;
+    margin-bottom: 8vh;
+}
+
+.under_header_title_btn{
+    border:none !important;
+    background:#eb7d4b;
+    border-radius: .5rem;
+    border-bottom: .5rem solid #c86a40 !important;
+}
+
+/* Sticky navigation from plugin class */
+.sticky {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: #87509c;
+    top: 0;
+    padding: 1.3rem 0;
+}
+
+/* Services section    */
+
+.services {
+    text-align: center;
+    padding: 10rem 0;
+    min-height: 65rem;
+    background:#17c2a4;
+    color:#fff;
+    clear:both;
+}
+
+.services_header h2 {
+    letter-spacing: 0.4rem;
+}
+
+.services_header hr,.team hr,.skill hr, .portfolio hr, .testi_head hr, .contact_head hr{
+    width: 8rem;
+    margin: 10px auto;
+    border: 2px solid #14a58c;
+}
+
+.services_header p {
+    margin-top: 1.9rem;
+    color: #f4fbfac2;
+}
+
+.services_col {
+    margin-top:5rem;
+}
+
+
+
+.service_same_col{
+    padding:3rem;
+}
+
+.service_same_col img{
+    margin-bottom: 3rem;
+}
+
+.service_same_col h3{
+    margin: 2rem 0rem;
+}
+
+.service_same_col p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #f4fbfacc;
+    line-height: 2.4rem;
+}
+
+/* team section er jonno */
+section.team{
+    text-align:center;
+    background:#e7f1f8;
+}
+
+.team_head {
+    margin-bottom:5rem;
+}
+
+.team_head h2{
+    color:#3c4761;
+}
+
+.team_head p{
+    color:#5d677b;
+}
+
+.team_col_same h4{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color:#30bae7;
+}
+
+.team hr {
+    border: 2px solid #c8d9e5;
+}
+
+.team_col_same p {
+    color: #5d677b9e;
+    margin: 3rem 0;
+    font-weight: 600;
+    text-align: justify;
+}
+.team_col_same img {
+    background: #878787;
+    border-radius: 50%;
+    width: 20.3rem;
+    height: 20.3rem;
+    display: block;
+}
+
+.team_col_same ul {
+    display:flex;
+    justify-content: center;
+}
+
+.team_col_same ul::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.team_col_same ul li{
+    float:left;
+    font-size:1.2rem;
+    padding:.5rem;
+    transition: .5s ease;
+}
+
+.team_col_same ul li a {
+    color: #fff;
+    background: #bdd1df;
+    padding: 9px;
+    border-radius: 50%;
+    transition: .5s ease;
+    width: 3rem;
+    display: inline-block;
+    
+}
+
+.team_col_same ul li:hover {
+    transform:scale(1.3);
+}
+
+.team_col_same ul li:hover a{
+    color:rgb(245, 241, 241);
+    background: #73b4e2;
+}
+
+
+/* skill section start   */
+
+section.skill{
+    text-align: center;
+}
+
+.skill hr {
+    border: 2px solid #c8d9e5;
+}
+
+.skill_head p{
+    font-weight: 600;
+}
+
+.skill_same{
+    color:#3c4761;
+    text-transform: uppercase;
+}
+
+.skill_progress{
+    padding-top:5rem;
+}
+
+/* manual set only progressbar  */
+svg.radial-progress circle{
+    stroke-width: 5;
+}
+
+svg.radial-progress text{
+    fill: #3c4761;
+    font-size:1.6rem;
+}
+
+svg.first_circle circle{
+    stroke:#30bae7;
+}
+
+svg.second_circle circle{
+    stroke: #d74680;
+}
+
+svg.third_circle circle{
+    stroke: #15c7a8;
+}
+svg.four_circle circle{
+    stroke: #eb7d4b;
+}
+
+
+/* portfolio section  */
+
+section.portfolio{
+    background:#ffdd99;
+    text-align: center;
+}
+
+.portfolio_head h2{
+    color:#60584a;
+}
+
+.portfolio_head hr{
+    border:.2rem solid #e5c37f;
+}
+
+.portfolio_head p {
+    color: #60584ad1;
+    font-weight: 600;
+}
+
+.portfolio_btn {
+    text-align: center;
+    margin: 5rem;
+    display: flex;
+    justify-content:center;
+}
+
+div.portfolio_btn ::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+div.portfolio_btn ul li {
+    float: left;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    background: #ebc985;
+    text-transform: uppercase;
+    margin: 0px .5rem;
+    font-weight: 600;
+    color: #393939cf;
+    border-radius: .5rem;
+    transition:0.5s ease;
+    cursor: pointer;
+}
+
+div.portfolio_btn ul li:hover{
+    box-shadow: inset 0px 4px 0px 0px #393939cf;
+    transform: scale(.9);
+}
+
+div.portfolio_img .col:nth-child(3){
+    margin-left:0px;
+}
+
+.portfolio_same{
+    margin-top:4rem;
+}
+
+.portfolio_same h3{
+    font-weight:400;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #393939c2;
+}
+
+
+.same-btn{
+    border:none !important;
+    background:#17c2a4;
+    border-radius: .5rem;
+    border-bottom: .5rem solid #14a58c !important;
+}
+
+a.btn.same-btn {
+    display: inline-block;
+    margin-top: 5rem;
+}
+
+.portfolio_btn .mixitup-control-active{
+    background:#fff;
+}
+
+
+/* testimonial section */
+
+section.testimonial {
+    text-align:center;
+    background:#d74680;
+    color:#fff;
+}
+
+.testi_head {
+    margin-bottom: 3rem;
+}
+
+.testi_head hr {
+    border:2px solid #b73c6d;
+}
+
+
+
+.testi-same .img{
+    margin-top: 2rem;
+    width:20%;
+    float:left;
+}
+
+.testi-same .img::after{
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+.testi-same img{
+    width:100%;
+    float:left;
+    border-radius:50%;
+}
+
+.testi-same .body{
+    float:right;
+    text-align: justify;
+    width:74%;
+}
+
+.testi-same .body p {
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 3.2rem;
+    color: #ffffffc2;
+}
+
+.testi-same .body h3{
+    text-transform: uppercase;
+    margin-bottom: .7rem;
+
+}
+
+.testi-same .body span{
+    font-size: 1.8rem;
+    color: #f5bd93;
+    font-weight: 600;
+}
+
+.testi_bio .group .col:nth-child(3){
+    margin-left:0px;
+    float: right;
+}
+
+.testi_bio .group .col:nth-child(1),.testi_bio .group .col:nth-child(2){
+    margin-bottom: 8rem;
+}
+
+
+/* contact section   */
+
+section.contact{
+    text-align: center;
+    background: #3c5499;
+    color:#fff;
+}
+
+.contact_head p{
+    margin:2rem 0;
+}
+
+.contact_same_2 {
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact_form{
+    margin-top: 6rem;
+}
+
+.contact_same_2 input, .contact_same_4 textarea {
+    width: 100%;
+    min-height: 4rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    border: 0px solid gainsboro;
+    font-weight: 400;
+    background: #273a71;
+    color: #fff;
+    border-radius: .6rem;
+}
+
+.contact_same_2 input::placeholder, .contact_same_4 textarea::placeholder{
+    color:#fff;
+    font-size: 1.6rem;
+}
+
+.contact_same_2 input:focus, .contact_same_4 textarea:focus{
+    outline: 2px solid #274db9;
+}
+
+.contact_form .group{
+    padding:0 18rem;
+}
+
+.contact_same_4{
+    padding-right: 3rem;
+    padding-left: 1rem;
+    margin-bottom: 6rem;
+}
+
+.contact_same_4 textarea{
+    padding: 1rem;
+}
+
+.contact_form .btn {
+    background: #30bae7;
+    color: #fff;
+    border: none;
+    border-bottom: .4rem solid #299ec5;
+}
+
+.contact_form .btn:focus{
+    outline:0;
+}

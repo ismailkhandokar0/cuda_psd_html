@@ -1,0 +1,76 @@
+
+@media only screen and (max-width:1024px){
+
+    nav{
+        padding: 1rem 3rem !important;
+    }
+
+    .header-menu{
+        display:none;
+    }
+
+    html{
+        font-size: 57.5%;
+    }
+
+    .portfolio_same img{
+        width:70%;
+    }
+
+    .span_1_of_4{
+        width:48%;
+    }
+
+    .team_col_same{
+        width:48%;
+        width: 48%;
+        padding: 6rem;
+    }
+    .team_col_same img{
+        margin: auto;
+    }
+
+    .testi-same{
+        text-align: center;
+
+    }
+
+    .testi-same .img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .testi-same .img img{
+        width:30%;
+    }
+
+    .span_1_of_2{
+        width:48%;
+    }
+}
+
+@media only screen and (max-width:850px){
+
+    .span_1_of_4{
+        width:100%;
+    }
+
+    .span_1_of_2{
+        width:100%;
+    }
+
+    .contact_same_2,.contact_same_4{
+        padding:0;
+    }
+
+    .contact_head p{
+        padding:0 2rem;
+    }
+}
+
+@media only screen and (max-width:480px){
+    
+
+    
+}
